@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    smsdigital (1.0.0)
+    smsdigital (1.0.1)
       httparty
 
 GEM
