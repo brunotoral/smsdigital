@@ -1,4 +1,4 @@
-#SMSDigital
+# SMSDigital
 
 Welcome to SMSDigital gem, a ruby gem to use Smsdigital service.
 
