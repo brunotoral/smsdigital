@@ -18,6 +18,10 @@ Or install it yourself as:
 
     $ gem install SMSDigital
 
+## Ruby Version
+
+This gem requires Ruby **>= 2.7.0**.
+
 ## Usage
 
 

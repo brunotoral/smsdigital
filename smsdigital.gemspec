@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.description   =  "A ruby gem to use Smsdigital service. In this first version only one message and one recipient are allowed"
   spec.homepage      = "https://github.com/brunotoral/smsdigital"
   spec.license       = "MIT"
-  spec.required_ruby_version = Gem::Requirement.new(">= 2.3.0")
+  spec.required_ruby_version = Gem::Requirement.new(">= 2.7.0")
 
   spec.metadata["homepage_uri"] = "https://github.com/brunotoral/smsdigital"
   spec.metadata["source_code_uri"] = "https://github.com/brunotoral/smsdigital"

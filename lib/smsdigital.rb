@@ -1,4 +1,5 @@
 require "httparty"
+require "forwardable"
 
 require "smsdigital/version"
 require "smsdigital/configuration"
@@ -26,12 +27,12 @@ module SMSDigital
 
     def send_sms(phone, message)
       sms = SMSDigital::SMS.new phone, message
-      
+
       sms.send
-      
+
       return sms.sent?
     end
   end
 
-  class Error < StandardError; end  
+  class Error < StandardError; end
 end
